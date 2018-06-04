@@ -140,9 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee2443c33e470924c818fc7a47750a3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GridPref: {fileID: 0}
+  GridPref: {fileID: 1575414955299332, guid: 507a10b1dd937af4bbc31376c14d9eaf, type: 2}
   Portal: {fileID: 0}
-  ARCamera: {fileID: 0}
+  ARCamera: {fileID: 1922250293}
 --- !u!4 &333353460
 Transform:
   m_ObjectHideFlags: 0
