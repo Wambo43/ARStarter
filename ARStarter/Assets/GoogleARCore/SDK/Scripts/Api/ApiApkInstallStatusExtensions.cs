@@ -21,9 +21,12 @@
 namespace GoogleARCoreInternal
 {
     using System.Collections.Generic;
+    using System.Diagnostics.CodeAnalysis;
     using GoogleARCore;
 
-    internal static class ApiApkInstallStatusExtensions
+    [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1600:ElementsMustBeDocumented",
+    Justification = "Internal")]
+    public static class ApiApkInstallStatusExtensions
     {
         public static ApkInstallationStatus ToApkInstallationStatus(this ApiApkInstallationStatus apiStatus)
         {

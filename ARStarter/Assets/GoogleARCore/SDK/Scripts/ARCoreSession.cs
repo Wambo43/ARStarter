@@ -47,7 +47,7 @@ namespace GoogleARCore
         /// </summary>
         public void OnDestroy()
         {
-            LifecycleManager.Instance.ResetSession();
+            LifecycleManager.Instance.DestroySession();
         }
 
         /// <summary>
